@@ -1,0 +1,153 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/fundopagina.jpg);
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    color: #FFf	;
+    font-family: 'Courier New',Courier, monospace;
+    font-size: 35px;
+    line-height: 0;
+    
+
+}
+.logo span{
+    color: #00ff40	;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    line-height: 0;
+}
+
+.titulo-produtos {
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    margin-top: 70px;
+}
+
+.titulo-produtos a{
+
+    display: inline-block;
+    background-color: #059100;
+    padding: 15px 60px;
+    color: #FFf;]
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.texto-produtos h4{
+    color: rgb(0, 255, 0);
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 150px;
+}
+
+.texto-produtos h3{
+    color: #FFF;
+    font-size: 30px;
+    margin-top: -30px;
+    
+}
+
+.image1 img{
+    width: 550px;
+    height: auto;
+    margin-left: 35px;
+}
+
+/*ARÉA SERVIÇOS*/
+
+
+.meio1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.meio1 h2 {
+    color: #00ff40;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.servico {
+    background-color: #059100;
+    width: 500px;
+    height: 320px;
+    margin-left: 70PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column-reverse;
+    color: #FFf;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.servico:hover{
+    background-color: black;
+    transition: 0.3 all;
+}
+.servico img{
+    width: 250px;
+    height: 250px;  
+    cursor: pointer;
+    
+}
+
+/* Final da pagina */ 
+.meio2 {
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    margin-top: 70px;
+}
+
+.meio2 a{
+
+    display: inline-block;
+    background-color: #059100;
+    padding: 15px 60px;
+    color: #FFf;]
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.meio2 h4{
+    color: rgb(0, 255, 0);
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 130px;
+}
+
+.meio2 h3{
+    color: #FFF;
+    font-size: 30px;
+    margin-top: -30px;
+    
+}
+
+.actionimage img{
+    width: 450px;
+    height: auto;
+    margin-left: 35px;
+}
+
